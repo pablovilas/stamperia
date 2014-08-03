@@ -31,7 +31,7 @@ module Stamperia
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
+    config.i18n.default_locale = :es
 
     # When deploying to Heroku by default Rails will attempt to intialize itself before the assets are precompiled.
     # This step will fail because the application will attempt to establish a database connection, which Heroku will not have set up yet.
